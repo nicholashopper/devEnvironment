@@ -1,3 +1,9 @@
+
+function sshMySite {
+    ssh -i ~/AWS/mysiteKey.pem ubuntu@mysite
+}
+
+
 function extract {
  if [ -z "$1" ]; then
     # display usage if no parameters given
