@@ -1,0 +1,3 @@
+
+# Supports vim coloring
+TERM=xterm-256color
