@@ -13,3 +13,6 @@ alias .....='cd ../../../../'
 
 alias grep='grep --color=auto'
 
+alias python='python3'
+
+alias dl='brew install'

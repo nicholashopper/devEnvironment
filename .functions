@@ -1,4 +1,6 @@
-
+function scpMySite {
+    scp -ri ~/AWS/mysiteKey.pem ~/Desktop/desktopToAWS/ ubuntu@mySite:~/
+}
 function sshMySite {
     ssh -i ~/AWS/mysiteKey.pem ubuntu@mysite
 }
