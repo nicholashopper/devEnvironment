@@ -16,3 +16,5 @@ alias grep='grep --color=auto'
 alias python='python3'
 
 alias dl='brew install'
+alias gh='history | grep '
+alias s='source ~/.bash_profile'
