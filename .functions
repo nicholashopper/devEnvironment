@@ -1,8 +1,17 @@
 function scpMySite {
     scp -ri ~/AWS/mysiteKey.pem ~/Desktop/desktopToAWS/ ubuntu@mySite:~/
 }
+
+function sshGnarathon {
+    ssh -i ~/AWS/mysiteKey.pem ubuntu@54.69.102.117
+}
+
 function sshMySite {
     ssh -i ~/AWS/mysiteKey.pem ubuntu@mysite
+}
+
+function sshTwins {
+    ssh -i ~/AWS/mysiteKey.pem ubuntu@54.71.179.39
 }
 
 
