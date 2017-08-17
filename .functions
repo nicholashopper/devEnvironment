@@ -11,7 +11,12 @@ function sshMySite {
 }
 
 function sshTwins {
-    ssh -i ~/AWS/mysiteKey.pem ubuntu@54.71.179.39
+    ssh -i ~/AWS/mysiteKey.pem ubuntu@52.38.24.135
+}
+
+
+function sshWT {
+    ssh -i ~/AWS/WT.pem ubuntu@34.212.12.183
 }
 
 
