@@ -1,0 +1,16 @@
+*
+.*
+!.gitignore
+!.README.md
+!.vimrc
+!.path
+!.functions
+!.exports
+!.extra
+!.bash_profile
+!.aliases
+!.vim
+!.vim/*
+!.vim/*/*
+!.vim/*/*/*
+
