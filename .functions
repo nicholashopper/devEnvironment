@@ -2,6 +2,10 @@ function scpMySite {
     scp -ri ~/AWS/mysiteKey.pem ~/Desktop/desktopToAWS/ ubuntu@mySite:~/
 }
 
+function scpUSAA {
+    sudo scp -ri ~/Downloads/usaa.pem ~/Projects/USAA-Backend/ ubuntu@52.91.207.15:~/
+}
+
 function sshGnarathon {
     ssh -i ~/AWS/mysiteKey.pem ubuntu@54.69.102.117
 }
@@ -17,6 +21,14 @@ function sshTwins {
 
 function sshWT {
     ssh -i ~/AWS/WT.pem ubuntu@34.212.12.183
+}
+
+function sshAbby {
+    ssh -i ~/AWS/abby2k.pem ubuntu@52.89.18.107
+}
+
+function sshUSAA {
+    ssh -i ~/Downloads/usaa.pem ubuntu@52.91.207.15
 }
 
 

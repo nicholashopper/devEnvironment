@@ -17,4 +17,6 @@ alias python='python3'
 
 alias dl='brew install'
 alias gh='history | grep '
-alias s='source ~/.bash_profile'
+alias sb='source ~/.bash_profile'
+
+alias s='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text'
